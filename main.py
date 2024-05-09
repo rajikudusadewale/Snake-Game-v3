@@ -16,7 +16,7 @@ black = (0, 0, 0)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-# Define game objects
+# Define game object classes
 snake_block_size = 20
 snake_speed = 10
 
