@@ -83,8 +83,7 @@ def game_loop():
                 f"Game Over {player_name}, your score is: {snake_length - 1}",
                 True, red)
             game_over_message2 = font_style.render(
-                "If you want to Quit; press Q. If you want to restart; press R",
-                True, red)
+                "Press Q; to Quit. Press R; to Restart", True, red)
             game_window.blit(game_over_message1,
                              [window_width / 6, window_height / 3])
             game_window.blit(game_over_message2,
